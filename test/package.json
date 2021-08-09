@@ -1,0 +1,28 @@
+{
+    "name": "esdoc-test-fixture",
+    "version": "2.0.0",
+    "description": "Test fixture for esdoc monorepo install test.",
+    "scripts": {
+        "test": "npm run test:clear && npm run test:esdoc",
+        "test:clear": "trash ./docs",
+        "test:esdoc": "esdoc -c esdoc.json"
+    },
+    "author": "EnterTheNameHere Bohemian",
+    "license": "MIT",
+    "dependencies": {
+      "@enterthenamehere/esdoc": "^2.0.2",
+      "@enterthenamehere/esdoc-exclude-source-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-external-nodejs-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-external-webapi-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-flow-type-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-importpath-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-inject-gtm-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-inject-script-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-inject-style-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-jsx-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-publish-markdown-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-react-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-standard-plugin": "^2.0.2",
+      "@enterthenamehere/esdoc-typescript-plugin": "^2.0.2"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "esdoc-monorepo-install-test",
+    "version": "1.0.0",
+    "description": "Test installation of whole ESDoc suite at the user's end.",
+    "scripts": {
+      "test": "npm ci && npm run test:clear && npm run test:install",
+      "test:clear": "trash ./test/node_modules",
+      "test:install": "cd test && npm install && npm run test"
+    },
+    "author": "EnterTheNameHere Bohemian",
+    "license": "MIT",
+    "dependencies": {
+      "trash": "^7.1.0",
+      "trash-cli": "^4.0.0"
+    }
+}

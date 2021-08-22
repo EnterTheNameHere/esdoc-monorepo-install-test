@@ -3,6 +3,7 @@
     "version": "2.1.0",
     "description": "Test fixture for esdoc monorepo install test.",
     "scripts": {
+        "pretest": "npm install npm install @enterthenamehere/esdoc@latest @enterthenamehere/esdoc-exclude-source-plugin@latest @enterthenamehere/esdoc-exclude-source-plugin@latest @enterthenamehere/esdoc-external-nodejs-plugin@latest @enterthenamehere/esdoc-external-webapi-plugin@latest @enterthenamehere/esdoc-flow-type-plugin@latest @enterthenamehere/esdoc-importpath-plugin@latest @enterthenamehere/esdoc-inject-gtm-plugin@latest @enterthenamehere/esdoc-inject-script-plugin@latest @enterthenamehere/esdoc-inject-style-plugin@latest @enterthenamehere/esdoc-jsx-plugin@latest @enterthenamehere/esdoc-react-plugin@latest @enterthenamehere/esdoc-standard-plugin@latest @enterthenamehere/esdoc-typescript-plugin@latest",
         "test": "npm run test:clear && npm run test:esdoc",
         "test:clear": "trash ./docs",
         "test:esdoc": "esdoc -c esdoc.json"
@@ -10,19 +11,21 @@
     "author": "EnterTheNameHere Bohemian",
     "license": "MIT",
     "dependencies": {
-      "@enterthenamehere/esdoc": "^2.1.0",
-      "@enterthenamehere/esdoc-exclude-source-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-external-nodejs-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-external-webapi-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-flow-type-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-importpath-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-inject-gtm-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-inject-script-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-inject-style-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-jsx-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-publish-markdown-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-react-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-standard-plugin": "^2.1.0",
-      "@enterthenamehere/esdoc-typescript-plugin": "^2.1.0"
+        "@enterthenamehere/esdoc": "^2.2.0",
+        "@enterthenamehere/esdoc-exclude-source-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-external-nodejs-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-external-webapi-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-flow-type-plugin": "^2.2.0",
+        "@enterthenamehere/esdoc-importpath-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-inject-gtm-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-inject-script-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-inject-style-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-jsx-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-publish-markdown-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-react-plugin": "^2.2.0",
+        "@enterthenamehere/esdoc-standard-plugin": "^2.2.0",
+        "@enterthenamehere/esdoc-typescript-plugin": "^2.2.0",
+        "install": "^0.13.0",
+        "npm": "^7.21.0"
     }
 }

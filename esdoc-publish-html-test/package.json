@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "name": "esdoc-publish-html-test",
+    "version": "2.1.0",
+    "description": "Original test from esdoc-publish-html-plugin",
+    "author": "h13i32maru",
+    "scripts": {
+        "pretest": "npm install @enterthenamehere/esdoc@latest @enterthenamehere/esdoc-accessor-plugin@latest @enterthenamehere/esdoc-brand-plugin@latest @enterthenamehere/esdoc-coverage-plugin@latest @enterthenamehere/esdoc-ecmascript-proposal-plugin@latest @enterthenamehere/esdoc-external-ecmascript-plugin@latest @enterthenamehere/esdoc-integrate-manual-plugin@latest @enterthenamehere/esdoc-integrate-test-plugin@latest @enterthenamehere/esdoc-type-inference-plugin@latest @enterthenamehere/esdoc-undocumented-identifier-plugin@latest @enterthenamehere/esdoc-unexported-identifier-plugin@latest",
+        "test": "esdoc"
+    },
+    "dependencies": {
+        "@enterthenamehere/esdoc": "^2.2.0",
+        "@enterthenamehere/esdoc-accessor-plugin": "^2.1.1",
+        "@enterthenamehere/esdoc-brand-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-coverage-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-ecmascript-proposal-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-external-ecmascript-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-integrate-manual-plugin": "^2.2.0",
+        "@enterthenamehere/esdoc-integrate-test-plugin": "^2.2.0",
+        "@enterthenamehere/esdoc-type-inference-plugin": "^2.2.0",
+        "@enterthenamehere/esdoc-undocumented-identifier-plugin": "^2.1.0",
+        "@enterthenamehere/esdoc-unexported-identifier-plugin": "^2.1.0"
+    },
+    "main": "./src/Class/Definition.js"
+}

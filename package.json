@@ -1,16 +1,21 @@
 {
-    "name": "esdoc-monorepo-install-test",
+    "private": true,
+    "name": "esdoc-monorepo-tests",
     "version": "1.0.0",
     "description": "Test installation of whole ESDoc suite at the user's end.",
     "scripts": {
-      "test": "npm ci && npm run test:clear && npm run test:install",
-      "test:clear": "trash ./test/node_modules",
-      "test:install": "cd test && npm install && npm run test"
+        "test": "npm ci && npm run install-test && npm run esdoc-publish-html-test",
+        "install-test": "npm run install-test:clear && npm run install-test:install",
+        "install-test:clear": "trash ./install-test/node_modules && trash ./install-test/docs",
+        "install-test:install": "cd ./install-test && npm install && npm run test && cd ../",
+        "esdoc-publish-html-test": "npm run esdoc-publish-html-test:clear && npm run esdoc-publish-html-test:install",
+        "esdoc-publish-html-test:clear": "trash ./esdoc-publish-html-test/docs && trash ./esdoc-publish-html-test/node_modules",
+        "esdoc-publish-html-test:install": "cd ./esdoc-publish-html-test && npm install && npm run test && cd ../"
     },
     "author": "EnterTheNameHere Bohemian",
     "license": "MIT",
     "dependencies": {
-      "trash": "^7.1.0",
-      "trash-cli": "^4.0.0"
+        "trash": "^7.1.0",
+        "trash-cli": "^4.0.0"
     }
 }

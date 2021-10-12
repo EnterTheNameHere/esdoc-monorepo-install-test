@@ -11,21 +11,5 @@
     "author": "EnterTheNameHere Bohemian",
     "license": "MIT",
     "dependencies": {
-        "@enterthenamehere/esdoc": "^2.2.0",
-        "@enterthenamehere/esdoc-exclude-source-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-external-nodejs-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-external-webapi-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-flow-type-plugin": "^2.2.0",
-        "@enterthenamehere/esdoc-importpath-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-inject-gtm-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-inject-script-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-inject-style-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-jsx-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-publish-markdown-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-react-plugin": "^2.2.0",
-        "@enterthenamehere/esdoc-standard-plugin": "^2.2.0",
-        "@enterthenamehere/esdoc-typescript-plugin": "^2.2.0",
-        "install": "^0.13.0",
-        "npm": "^7.21.0"
     }
 }

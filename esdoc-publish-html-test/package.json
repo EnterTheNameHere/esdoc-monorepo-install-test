@@ -9,17 +9,6 @@
         "test": "esdoc"
     },
     "dependencies": {
-        "@enterthenamehere/esdoc": "^2.2.0",
-        "@enterthenamehere/esdoc-accessor-plugin": "^2.1.1",
-        "@enterthenamehere/esdoc-brand-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-coverage-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-ecmascript-proposal-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-external-ecmascript-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-integrate-manual-plugin": "^2.2.0",
-        "@enterthenamehere/esdoc-integrate-test-plugin": "^2.2.0",
-        "@enterthenamehere/esdoc-type-inference-plugin": "^2.2.0",
-        "@enterthenamehere/esdoc-undocumented-identifier-plugin": "^2.1.0",
-        "@enterthenamehere/esdoc-unexported-identifier-plugin": "^2.1.0"
     },
     "main": "./src/Class/Definition.js"
 }
